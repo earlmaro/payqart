@@ -8,7 +8,7 @@ import paymentBreakDown from './paymentBreakDown';
 import {Link, useHistory} from "react-router-dom";
 import axios from 'axios';
 import { Redirect } from 'react-router';
-import Popup from 'react-popup';
+
 
 
 import {BrowserRouter as Router, Route,Switch} from "react-router-dom";
@@ -193,8 +193,7 @@ class Default extends Component {
         return (
 <React.Fragment>
 <Router>
-<Popup />,
-    document.getElementById('popupContainer')
+
     
 
             <div className="row container-fluid m-0 p-0">
